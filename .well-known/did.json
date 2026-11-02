@@ -1,0 +1,22 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:navigrow-tdc.github.io",
+  "assertionMethod": [
+    {
+      "id": "did:web:navigrow-tdc.github.io#243b5cebaacd20b43909d554305e20e079f29c3cee5226e456c54397c075d4ca",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:navigrow-tdc.github.io",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "56_dI8dXzsQrZs3aVn4yShnstxspKSizyh1jrIMPykg=",
+        "y": "mf8cOuJXV2C2sfwmQrdtIX3qiBAl7pjGt7nb-hccR9E=",
+        "kid": "243b5cebaacd20b43909d554305e20e079f29c3cee5226e456c54397c075d4ca",
+        "alg": "ES256"
+      }
+    }
+  ]
+}
